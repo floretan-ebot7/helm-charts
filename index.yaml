@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ebot7-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-18T15:24:55.779631999Z"
+    description: A Helm chart for Kubernetes
+    digest: 3ad3ef2bcd858f1ff36fd67791894c2bc69e353f071624f19895be4186414585
+    name: ebot7-service
+    type: application
+    urls:
+    - https://github.com/ebot7/helm-charts/releases/download/ebot7-service-0.1.0/ebot7-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-08-18T15:24:55.77964Z"
