@@ -57,7 +57,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   key: {{ .objectAlias | quote }}
-                  name: "{{ include "chart.fullname" $ }}-aws"
+                  name: "{{ include "ebot7-service.fullname" $ }}-aws"
           {{- end }}
           volumeMounts:
             - mountPath: /mnt/secrets-store
@@ -82,4 +82,4 @@ spec:
             driver: secrets-store.csi.k8s.io
             readOnly: true
             volumeAttributes:
-              secretProviderClass: {{ include "chart.fullname" . }}
+              secretProviderClass: {{ include "ebot7-service.fullname" . }}
