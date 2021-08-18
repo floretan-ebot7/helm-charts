@@ -85,3 +85,9 @@ env: {}
  # Environment variables to be set for your container. Do not use this for passwords!
  # Use the key as the environment variable name and the value as the value:
  # MY_VAR: "myvalue"
+
+awsSecrets:
+# Expose AWS secrets as environment variables.
+#   - objectAlias: 'REDIS_URI'
+#     objectType: secretsmanager
+#     objectName: 'arn:aws:secretsmanager:eu-central-1:164521151663:secret:REDIS_URI-UWfT1G'
